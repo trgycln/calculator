@@ -1,3 +1,9 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 #calculator {
 	width: 200px;
 	margin: auto;
@@ -5,13 +11,18 @@
 	font-size: 20px;
   }
   
-  #display {
-	width: 100%;
+  #screen {
+	width: 250px;
 	margin-bottom: 10px;
+	margin-top: 50px;
 	font-size: 30px;
 	text-align: right;
   }
-  
+
+  #keys{
+	width: 250px;
+  }
+
   #keys button {
 	width: 45px;
 	height: 45px;
